@@ -15,10 +15,13 @@ This is a Discord bot that generates Tebex coupons. It uses the discord.py libra
     ```bash
     pip install discord requests
     ```
-3. Replace the `bot_token` and `tebex_secret` in the script with your Discord bot token and Tebex secret key respectively.
+3. Replace the `bot_token` and `tebex_secret` in the code with your Discord bot token and Tebex secret key respectively. (https://docs.tebex.io/plugin/authentication)
 4. Replace the `allowed_user_ids` with the Discord user IDs that should be allowed to use the command.
-5. Replace the `api_key` and `server_id` with your API key and server ID respectively.
-6. Run the bot:
+5. Replace the `guild_id` with your Discord server's ID.
+6. Replace the `currency` with the currency you use in your store.
+7. Replace the `hex_color` with the color you wish to use on the left side of the embed. Example below.
+8. Replace the `store_link` and `image_link` with the correct link to your store and how your checkout looks (if you wish).
+9. Run the bot:
     ```bash
     python main.py
     ```
@@ -31,3 +34,6 @@ Use the `/generatecoupon` slash command in Discord to generate a new Tebex coupo
 
 This bot is designed for a specific use case and might not suit your needs out of the box. Feel free to modify the code to fit your requirements.
 All code that needs changing to suit your environment is under "CHANGE THESE" in the code.
+
+## Picture
+![image](https://github.com/user-attachments/assets/ec965be9-9ea9-4173-9cd7-8b678926343d)
