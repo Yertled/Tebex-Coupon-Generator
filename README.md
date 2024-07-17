@@ -2,6 +2,8 @@
 
 This is a Discord bot that generates Tebex coupons. It uses the discord.py library and the Tebex API.
 
+![image](https://github.com/user-attachments/assets/ec965be9-9ea9-4173-9cd7-8b678926343d)
+
 ## Features
 
 - **Slash Commands**: The bot uses slash commands for easy interaction.
@@ -34,6 +36,3 @@ Use the `/generatecoupon` slash command in Discord to generate a new Tebex coupo
 
 This bot is designed for a specific use case and might not suit your needs out of the box. Feel free to modify the code to fit your requirements.
 All code that needs changing to suit your environment is under "CHANGE THESE" in the code.
-
-## Picture
-![image](https://github.com/user-attachments/assets/ec965be9-9ea9-4173-9cd7-8b678926343d)
