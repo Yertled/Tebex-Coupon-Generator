@@ -89,7 +89,7 @@ async def coupon_command(interaction: discord.Interaction, value: int, note: str
         await interaction.response.send_message(deny_perms, ephemeral=True)
 
 
-# Send banning embed
+# Send embed
 async def generate_coupon(code, value, generated_by):
     # Convert hex color to RGB
     rgb_color = tuple(int(hex_color[i:i + 2], 16) for i in (1, 3, 5))  # Skip the '#' at the start
